@@ -1,19 +1,49 @@
 body{
   color:#212121;
-  background-color: #2196F3#;
-  .logo{
-   color:#2196F3 ;
-  }
-  .logo-first{
-   color:#000000;
-  }
-  .list{
-   list-style: none;
-  }
-  .site-nav{
-   color: #212121;
-  }
+  background-color: #ffffff;
+ }
+  .logo {
+    color: #2196F3;
+ }
+
+ .logo-first {
+    color: #000000;
+ }
+
+ .list {
+    list-style: none;
+ }
+/* site-nav */
+ .site-nav .link {
+    color: #212121;
+ }
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: #2196F3;
+ }
+ /* contacts */
+ .contacts .link {
+color: #757575;
+ }
+ .contacts .link:hover,
+ .contacts .link:focus {
+color: #2196F3;
+ }
+
+ /* Hero */
+.hero-title{
+   color: #ffffff;
 }
+
+/* sections */
+.section-title{
+   color: #212121;
+}
+.p{
+   color: #757575;
+}
+
 /* background-color footer: #2F303A;
 
 background-color secondary: #F5F4FA; 
