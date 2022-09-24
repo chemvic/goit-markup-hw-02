@@ -1,9 +1,16 @@
+:root{
+   --primary-text-color:#212121;
+   --secondary-text-color:#757575;
+   --accent-color:#2196F3;
+}
+
+
 body{
-  color:#212121;
-  background-color: #ffffff;
+color: var(--primary-text-color);
+  background-color:tomato;
  }
   .logo {
-    color: #2196F3;
+    color: var(--accent-color);
  }
 
  .logo-first {
@@ -15,21 +22,21 @@ body{
  }
 /* site-nav */
  .site-nav .link {
-    color: #212121;
+   color: var(--primary-text-color);
  }
 
  .site-nav .link:hover,
  .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
  }
  /* contacts */
  .contacts .link {
-color: #757575;
+color: var(--secondary-text-color);
  }
  .contacts .link:hover,
  .contacts .link:focus {
-color: #2196F3;
- }
+color: var(--accent-color); 
+}
 
  /* Hero */
 .hero-title{
@@ -38,10 +45,30 @@ color: #2196F3;
 
 /* sections */
 .section-title{
-   color: #212121;
+color: var(--primary-text-color);
 }
-.p{
-   color: #757575;
+.benefits-list .title{
+   color: var(--primary-text-color);
+}
+.benefits-list .description{
+   color: var(--secondary-text-color);
+}
+.staff-list .name{
+   color: var(--primary-text-color);
+}
+.staff-list .profession{
+   color: var(--secondary-text-color);
+}
+
+/* Basement */
+.logo-second{
+   color:#ffffff;
+}
+.map{
+   color: #ffffff;
+}
+.contacts-basement{
+   color:rgba(255,255,255,0.6);
 }
 
 /* background-color footer: #2F303A;
