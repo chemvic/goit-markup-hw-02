@@ -9,36 +9,40 @@
   </head>
   <body>
     <header>
+      <div>
+        <a lang="en" href="./index.html" class="logo-first"
+          ><span class="logo">Web</span>Studio</a
+        >
+      </div>
       <nav>
-        <ul>
-          <li>
-            <a lang="en" href="/"><span>Web</span>Studio</a>
-          </li>
-          <li><a href="./index.html">Студіо</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="site-nav list">
+          <li><a href="/" class="link">Студіо</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+          <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts list">
         <li>
-          <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a lang="en" href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <section>
         <h1>Перелік послуг</h1>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list">
+          <li><button class="button" type="button">Усі</button></li>
+          <li><button class="button" type="button">Веб-сайти</button></li>
+          <li><button class="button" type="button">Додатки</button></li>
+          <li><button class="button" type="button">Дизайн</button></li>
+          <li><button class="button" type="button">Маркетинг</button></li>
         </ul>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="#">
               <img
@@ -114,12 +118,15 @@
     </main>
 
     <footer>
-      <a lang="en" href="/"><span>Web</span>Studio</a>
+      <div>
+        <a lang="en" href="/"><span>Web</span>Studio</a>
+      </div>
 
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="map link"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -127,9 +134,18 @@
             >
           </li>
           <li>
-            <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a
+              class="contacts-basement link"
+              lang="en"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contacts-basement link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
