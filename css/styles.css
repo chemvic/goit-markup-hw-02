@@ -6,10 +6,7 @@
    --primary-button-color: #F5F4FA;
 
 }
-/* fonts */
-/* roboto 400 500 700 900  16px 14px
-Raleway 700 
- */
+
 body{
 color: var(--primary-text-color);
   background-color:tomato;
@@ -32,6 +29,7 @@ color: var(--primary-text-color);
  .list {
     list-style: none;
  }
+ 
 /* site-nav */
  .site-nav .link {
    color: var(--primary-text-color);
