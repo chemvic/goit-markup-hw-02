@@ -6,19 +6,28 @@
    --primary-button-color: #F5F4FA;
 
 }
-
-
+/* fonts */
+/* roboto 400 500 700 900  16px 14px
+Raleway 700 
+ */
 body{
 color: var(--primary-text-color);
   background-color:tomato;
- }
-  .logo {
-    color: var(--accent-color);
+  font-family: roboto,sans-serif;
+ letter-spacing: 0.03em;
  }
 
- .logo-first {
+  .logo {
+    color: var(--accent-color);
+   font-family: Raleway,sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+           }
+
+ .logo.first {
     color: #000000;
- }
+               }
 
  .list {
     list-style: none;
@@ -26,9 +35,14 @@ color: var(--primary-text-color);
 /* site-nav */
  .site-nav .link {
    color: var(--primary-text-color);
+   font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
  }
  .site-nav .link.current {
   color: var(--accent-color);
+  
  }
 
  .site-nav .link:hover,
@@ -39,6 +53,10 @@ color: var(--primary-text-color);
  /* contacts */
  .contacts .link {
 color: var(--secondary-text-color);
+font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
  }
  .contacts .link:hover,
  .contacts .link:focus {
@@ -48,43 +66,84 @@ color: var(--accent-color);
  .contacts-basement.link:focus {
 color: var(--accent-color); 
 }
- .map.link:hover,
- .map.link:focus {
-color: var(--accent-color); 
-}
+ /* Basement */
+ .logo.second {
+    color: var(--primary-white-color);
+ }
 
- /* Hero */
+ .basement {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+ }
+
+ .map {
+    color: var(--primary-white-color);
+ }
+
+ .contacts-basement {
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+ /* Hero index*/
 .hero-title{
    color: var(--primary-white-color);
+   
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;        
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+}
+.button-hero {
+   color: var(--primary-white-color);
+   background-color: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+
+   letter-spacing: 0.06em;
 }
 
-/* sections */
+/* sections index*/
 .section-title{
 color: var(--primary-text-color);
+font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
 }
 .benefits-list .title{
    color: var(--primary-text-color);
+   font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+  
+      text-transform: uppercase;
 }
 .benefits-list .description{
    color: var(--secondary-text-color);
+   
+      font-size: 14px;
+      line-height: 1.71;
 }
 .staff-list .name{
    color: var(--primary-text-color);
-}
+   font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+       
+      }
 .staff-list .profession{
    color: var(--secondary-text-color);
+   font-size: 16px;
+      line-height: 1.19;
 }
 
-/* Basement */
-.logo-second{
-   color: var(--primary-white-color);
-}
-.map{
-   color: var(--primary-white-color);
-}
-.contacts-basement{
-   color:rgba(255,255,255,0.6);
-}
+/* portfolio */
+
 
 
 /* button */
@@ -92,25 +151,32 @@ color: var(--primary-text-color);
 .button{
 color: var(--primary-text-color);
 background-color: var(--primary-button-color);
+font-weight: 500;
+   font-size: 16px;
+   line-height: 1.63;
+   /* identical to box height, or 162% */
+
+   text-align: center;
 }
 .button:hover,
 .button:focus{
    color: var(--primary-white-color);
     background-color:var(--accent-color);
 }
-.button-hero{
-   color: var(--primary-white-color);
-   background-color:var(--accent-color);
+.list-title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+ color: var(--primary-text-color);
+   letter-spacing: 0.06em;
+}
+.work-types{
+   color: var(--secondary-text-color);
+   font-size: 16px;
+      line-height: 1.88;
 }
 
 
-/* background-color footer: #2F303A;
-
-background-color secondary: #F5F4FA; 
-акцент: #2196F3;
-
-color-secondary:#757575;
 
 
 
-*/
